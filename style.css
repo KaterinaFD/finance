@@ -1,0 +1,136 @@
+.nav-link:hover {
+    color: #609966 !important;
+} 
+h3:hover {
+    color: #eb9447 !important ;
+}
+.what:hover {
+    color: #eb9447 !important ;
+    background-color: white !important;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    font-family:'EB Garamond', serif ;
+    width: 450px;
+    padding: 10px;
+}
+input {
+    border: none;
+    border-radius: 5px;
+    background-color: #EDF1D6;
+    height: 60px;
+    padding: 10px;
+}
+button {
+    border-radius: 5px;
+    color: white;
+    background-color: #609966;
+    font-size: 20px;
+    padding: 10px;
+    cursor: help;
+    border: none;
+    height: 60px;
+}
+button:hover {
+    background-color: #9DC08B;
+}
+.textBord {
+    border: 10px #609966 solid ;
+    margin: 20px;
+    padding: 20px;
+}
+p {
+    font-family:'EB Garamond', serif ;
+    font-size: 20px;
+}
+.call {
+    background-color: #1C6758;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.textLead {
+    margin: 20px;
+    padding: 10px;
+}
+.green {
+    color: #1C6758;
+}
+.brown {
+    color: #A64B2A;
+   
+}
+.backGreen {
+    background-color: #609966;
+}
+
+
+.post-slader .post-wrapper  {
+    width: 84%;
+    height: 350px;
+    margin: 0px  auto;
+    overflow:hidden ;
+    padding: 10px 0px 10px 0px;
+}
+.post-slader .post-wrapper .post {
+    background:white;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0px 10px;
+    box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+}
+
+.post-slader {
+    position: relative;
+}
+
+.post-slader .next {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    color: #1C6758;
+    font-size: 30px;
+    cursor: pointer;
+}
+.post-slader .prev {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    color: #1C6758;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.text-rev {
+    height: 250px;
+}
+
+@media all and (max-width:900px) {
+.label {
+    width: 300px;
+}
+.text-one {
+    display: none;
+}
+.image-we {
+    width: 350px;
+    height: 350px;
+}
+}
+
+@media all and (max-width:500px) {
+    .label {
+        width: 350px;
+    }
+    .image-we {
+        width: 350px;
+        height: 350px;
+    }
+    .brown {
+        text-decoration: none;
+    }
+
+}
